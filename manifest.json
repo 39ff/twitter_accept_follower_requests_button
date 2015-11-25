@@ -10,8 +10,5 @@
       "js": ["jquery.min.js","script.js","notify.min.js"],
       "run_at": "document_idle"
     }
-  ],
-  "permissions": [
-    "https://twitter.com/*" // api.example.comを使いますよの宣言
   ]
 }
