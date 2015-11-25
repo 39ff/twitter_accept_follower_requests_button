@@ -1,0 +1,17 @@
+{
+  "name": "Twitter Accept ALL button 2015",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "appear on follower_requests page.",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/follower_requests"],
+      "all_frames":false,
+      "js": ["jquery.min.js","script.js","notify.min.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "https://twitter.com/*" // api.example.comを使いますよの宣言
+  ]
+}
